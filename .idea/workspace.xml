@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5ceb4050-1f5b-4877-a9fd-39fc86976bc1" name="Default" comment="" />
+    <list default="true" id="5ceb4050-1f5b-4877-a9fd-39fc86976bc1" name="Default" comment="1">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/flamingo/util/CompareUtils.class" afterPath="$PROJECT_DIR$/target/classes/com/flamingo/util/CompareUtils.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/com/flamingo/AppTest.class" afterPath="$PROJECT_DIR$/target/test-classes/com/flamingo/AppTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/flamingo/util/CompareUtils.java" afterPath="$PROJECT_DIR$/src/main/java/com/flamingo/util/CompareUtils.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/page/test.html" afterPath="$PROJECT_DIR$/src/main/resources/page/test.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/flamingo/AppTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/flamingo/AppTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/page/test.html" afterPath="$PROJECT_DIR$/target/classes/page/test.html" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,7 +35,7 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
+            <state relative-caret-position="122">
               <caret line="26" column="16" lean-forward="false" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
               <folding />
             </state>
@@ -37,22 +45,15 @@
       <file leaf-file-name="test.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/resources/page/test.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="59" lean-forward="false" selection-start-line="2" selection-start-column="59" selection-end-line="2" selection-end-column="59" />
+            <state relative-caret-position="15">
+              <caret line="1" column="380" lean-forward="false" selection-start-line="1" selection-start-column="380" selection-end-line="1" selection-end-column="380" />
               <folding>
-                <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#td#0;n#tr#0;n#table#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#td#0;n#tr#2;n#table#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#td#0;n#tr#0;n#table#0;n#div#1;n#!!top" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="App.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/flamingo/App.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -60,13 +61,10 @@
       <file leaf-file-name="CompareUtils.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/flamingo/util/CompareUtils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2292">
-              <caret line="260" column="63" lean-forward="false" selection-start-line="260" selection-start-column="63" selection-end-line="260" selection-end-column="63" />
+            <state relative-caret-position="85">
+              <caret line="148" column="135" lean-forward="false" selection-start-line="148" selection-start-column="135" selection-end-line="148" selection-end-column="135" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#374#390#0" expanded="true" />
-                <element signature="e#9981#9990#0" expanded="true" />
-                <element signature="e#10752#10761#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -75,8 +73,8 @@
       <file leaf-file-name="AppTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/flamingo/AppTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="490">
-              <caret line="27" column="72" lean-forward="false" selection-start-line="27" selection-start-column="72" selection-end-line="27" selection-end-column="72" />
+            <state relative-caret-position="300">
+              <caret line="33" column="22" lean-forward="false" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -93,6 +91,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
       <projects_view />
@@ -103,9 +104,9 @@
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/flamingo/util/CompareUtl.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/flamingo/AppTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/flamingo/domain/EditDistanceInfo.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/flamingo/util/CompareUtils.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/flamingo/AppTest.java" />
         <option value="$PROJECT_DIR$/src/main/resources/page/test.html" />
       </list>
     </option>
@@ -202,7 +203,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -277,9 +278,9 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="AndroidView" />
       <pane id="Scratches" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -428,46 +429,47 @@
       <workItem from="1564629574175" duration="7580000" />
       <workItem from="1564708707139" duration="4812000" />
       <workItem from="1564717581500" duration="12778000" />
+      <workItem from="1564967014655" duration="5912000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AppTest_shouldAnswerWithTrue - 2019.08.02 at 13h 57m 57s.xml">
+    <history-entry file="AppTest_shouldAnswerWithTrue - 2019.08.05 at 09h 24m 12s.xml">
       <configuration name="AppTest.shouldAnswerWithTrue" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AppTest_shouldAnswerWithTrue - 2019.08.02 at 14h 02m 41s.xml">
+    <history-entry file="AppTest_shouldAnswerWithTrue - 2019.08.05 at 09h 24m 14s.xml">
       <configuration name="AppTest.shouldAnswerWithTrue" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AppTest_shouldAnswerWithTrue - 2019.08.02 at 14h 02m 47s.xml">
+    <history-entry file="AppTest_shouldAnswerWithTrue - 2019.08.05 at 13h 58m 16s.xml">
       <configuration name="AppTest.shouldAnswerWithTrue" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AppTest_shouldAnswerWithTrue - 2019.08.02 at 14h 03m 29s.xml">
+    <history-entry file="AppTest_shouldAnswerWithTrue - 2019.08.05 at 13h 58m 20s.xml">
       <configuration name="AppTest.shouldAnswerWithTrue" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AppTest_shouldAnswerWithTrue - 2019.08.02 at 14h 04m 08s.xml">
+    <history-entry file="AppTest_shouldAnswerWithTrue - 2019.08.05 at 14h 08m 15s.xml">
       <configuration name="AppTest.shouldAnswerWithTrue" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AppTest_shouldAnswerWithTrue - 2019.08.02 at 14h 04m 17s.xml">
+    <history-entry file="AppTest_shouldAnswerWithTrue - 2019.08.05 at 14h 08m 18s.xml">
       <configuration name="AppTest.shouldAnswerWithTrue" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AppTest_shouldAnswerWithTrue - 2019.08.02 at 14h 04m 42s.xml">
+    <history-entry file="AppTest_shouldAnswerWithTrue - 2019.08.05 at 14h 19m 41s.xml">
       <configuration name="AppTest.shouldAnswerWithTrue" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AppTest_shouldAnswerWithTrue - 2019.08.02 at 14h 04m 54s.xml">
+    <history-entry file="AppTest_shouldAnswerWithTrue - 2019.08.05 at 14h 21m 07s.xml">
       <configuration name="AppTest.shouldAnswerWithTrue" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AppTest_shouldAnswerWithTrue - 2019.08.02 at 17h 16m 06s.xml">
+    <history-entry file="AppTest_shouldAnswerWithTrue - 2019.08.05 at 14h 22m 00s.xml">
       <configuration name="AppTest.shouldAnswerWithTrue" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AppTest_shouldAnswerWithTrue - 2019.08.02 at 17h 16m 19s.xml">
+    <history-entry file="AppTest_shouldAnswerWithTrue - 2019.08.05 at 14h 23m 04s.xml">
       <configuration name="AppTest.shouldAnswerWithTrue" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25170000" />
+    <option name="totallyTimeSpent" value="31082000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1" y="23" width="1680" height="909" extended-state="6" />
+    <frame x="0" y="23" width="1680" height="909" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -478,8 +480,8 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32985258" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32957393" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3132832" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Sequence" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -490,7 +492,7 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39974937" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35714287" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -513,15 +515,15 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39974937" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20551379" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32957393" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32957393" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.54260653" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Sequence" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2536855" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
@@ -538,7 +540,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="5" />
+      <option name="time" value="8" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -565,13 +567,60 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/flamingo/util/CompareUtils.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3870">
+          <caret line="260" column="63" lean-forward="false" selection-start-line="260" selection-start-column="63" selection-end-line="260" selection-end-column="63" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/flamingo/AppTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="27" column="72" lean-forward="false" selection-start-line="27" selection-start-column="72" selection-end-line="27" selection-end-column="72" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/page/test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="59" lean-forward="false" selection-start-line="2" selection-start-column="59" selection-end-line="2" selection-end-column="59" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#td#0;n#tr#0;n#table#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#td#0;n#tr#2;n#table#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#td#0;n#tr#0;n#table#0;n#div#1;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="16" lean-forward="false" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/flamingo/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/flamingo/util/CompareUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="46" lean-forward="false" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="46" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#374#390#0" expanded="true" />
-            <element signature="e#9981#9990#0" expanded="true" />
-            <element signature="e#10752#10761#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -608,26 +657,7 @@
           <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#374#390#0" expanded="true" />
-            <element signature="e#9981#9990#0" expanded="true" />
-            <element signature="e#10752#10761#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/flamingo/App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="16" lean-forward="false" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -649,23 +679,36 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/flamingo/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="26" column="16" lean-forward="false" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/flamingo/util/CompareUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2292">
-          <caret line="260" column="63" lean-forward="false" selection-start-line="260" selection-start-column="63" selection-end-line="260" selection-end-column="63" />
+        <state relative-caret-position="85">
+          <caret line="148" column="135" lean-forward="false" selection-start-line="148" selection-start-column="135" selection-end-line="148" selection-end-column="135" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#374#390#0" expanded="true" />
-            <element signature="e#9981#9990#0" expanded="true" />
-            <element signature="e#10752#10761#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/flamingo/AppTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="490">
-          <caret line="27" column="72" lean-forward="false" selection-start-line="27" selection-start-column="72" selection-end-line="27" selection-end-column="72" />
+        <state relative-caret-position="300">
+          <caret line="33" column="22" lean-forward="false" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -674,11 +717,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/page/test.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="59" lean-forward="false" selection-start-line="2" selection-start-column="59" selection-end-line="2" selection-end-column="59" />
+        <state relative-caret-position="15">
+          <caret line="1" column="380" lean-forward="false" selection-start-line="1" selection-start-column="380" selection-end-line="1" selection-end-column="380" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#td#0;n#tr#0;n#table#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#td#0;n#tr#2;n#table#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#td#0;n#tr#0;n#table#0;n#div#1;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -146,43 +146,49 @@ public class CompareUtils {
         int b = 0;
         StringBuilder originalText = new StringBuilder();
         StringBuilder targetText = new StringBuilder();
+        String style = "<style type='text/css'>tr{height:20px;}.edited{background-color:aqua;}.deleted{background-color:salmon}</style><table>";
+        originalText.append(style);
+        targetText.append(style);
         for(int m : path){
             if(m == 0){
-                targetText.append("<p style='background-color:aqua'>");
+                targetText.append("<tr class='edited'><td>");
                 targetText.append(targetList.get(b));
-                targetText.append("</p>");
+                targetText.append("</td></tr>");
                 b++;
-                originalText.append("<p style='background-color:aqua'></br></p>");
+                originalText.append("<tr class='edited'><td></td></tr>");
             }
 
             if(m == 1){
-                originalText.append("<p style='background-color:indianred'>");
+                originalText.append("<tr class='deleted'><td>");
                 originalText.append(originalList.get(a));
-                originalText.append("</p>");
+                originalText.append("</td></tr>");
                 a++;
-                targetText.append("<p style='background-color:indianred'></br></p>");
+                targetText.append("<tr class='deleted'><td></td></tr>");
             }
             if(m == 2){
                 EditDistanceInfo e = d[a + 1][b + 1];
                 if(e.isTheSame()){
-                    originalText.append("<p>");
-                    originalText.append(targetList.get(a));
-                    originalText.append("</p>");
-                    targetText.append("<p>");
+                    originalText.append("<tr class='normal'><td>");
+                    originalText.append(originalList.get(a));
+                    originalText.append("</td></tr>");
+                    targetText.append("<tr class='normal'><td>");
                     targetText.append(targetList.get(b));
-                    targetText.append("</p>");
+                    targetText.append("</td></tr>");
                 } else {
                     Map<String,String> compareTexts = getCompareTexts(originalList.get(a), targetList.get(b));
-                    originalText.append("<p style='background-color:aqua'>");
+                    originalText.append("<tr class='edited'><td>");
                     originalText.append(compareTexts.get("original"));
-                    originalText.append("</p>");
-                    targetText.append("<p style='background-color:aqua'>");
+                    originalText.append("</td></tr>");
+                    targetText.append("<tr class='edited'><td>");
                     targetText.append(compareTexts.get("target"));
-                    targetText.append("</p>");
+                    targetText.append("</td></tr>");
                 }
+                a++;
+                b++;
             }
         }
-
+        originalText.append("</table>");
+        targetText.append("</table>");
         result.put("original", originalText.toString());
         result.put("target", targetText.toString());
 
@@ -261,6 +267,7 @@ public class CompareUtils {
                 EditDistanceInfo e = new EditDistanceInfo(false);
                 e.setEditDistance(editDistance);
                 e.setTheSame(ifTheSame);
+                d[i][j] = e;
             }
         }
         return d;
@@ -290,7 +297,7 @@ public class CompareUtils {
     }
 
     /**
-     * 根据编辑距离矩阵获取编辑路径
+     * 根据编辑距离矩阵获取编辑路径--字符串比较
      * @param d
      * @return
      */
@@ -323,6 +330,11 @@ public class CompareUtils {
         return path;
     }
 
+    /**
+     * 根据编辑距离矩阵获取编辑路径--段落比较
+     * @param d
+     * @return
+     */
     public List<Integer> getEditPath(EditDistanceInfo[][] d){
         int i = d.length - 1;
         int j = d[0].length - 1;
